@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Starbucks® Matchacher | Premium Matcha Shop</title>
+    <link rel="icon" href="starbucks.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="brand">
+                <img src="starbucks.jpg" alt="Starbucks Logo" class="logo-img">
+                <div class="brand-text">
+                    <span class="tagline">PREMIUM MATCHA SHOP</span>
+                    <h1>Starbucks® Matchacher</h1>
+                </div>
+            </div>
+            <p class="header-desc">Experience the perfect blend of Japanese tradition and modern taste.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="categories1.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container1">
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <h4>Ingredients</h4>
+                <label><input type="checkbox" checked> 1 tsp Matcha powder</label>
+                <label><input type="checkbox"> 60 ml Hot water</label>
+                <label><input type="checkbox"> 180 ml Milk (fresh milk / oat milk)</label>
+                <label><input type="checkbox"> 1–2 tsp Sugar or honey (optional)</label>
+                <label><input type="checkbox"> Whipped cream (optional)</label>
+            </div>
+            <div class="filter-group">
+                <h4>Prep Time</h4>
+                <input type="range" min="1" max="100" value="50" class="slider">
+                <p>5 minutes</p>
+            </div>
+            <div class="filter-group">
+                <h4>💡 Tips</h4>
+                <label><input type="checkbox" checked> It is important to sift the matcha to avoid lumps</label>
+                <label><input type="checkbox">A bamboo whisk (chasen) will make it smoother</label>
+                <label><input type="checkbox"> You can also make an iced matcha latte by adding ice</label>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="content-header">
+                <nav class="breadcrumb">Home > Repices > <b>Latte</b></nav>
+                <div class="title-bar">
+                    <h1>Matcha Latte</h1> 
+                    <select class="sort-dropdown">
+                        <option>Sort by: Newest</option>
+                    </select>
+                </div>
+            </header>
+
+            <section class="main-content">
+                <h3 class="section-title">A classic Japanese-style drink that's creamy, smooth, and balances the slightly bitter taste of matcha with the smoothness of milk. <br>
+                </h3>
+            </section>
+
+            <section class="product1-grid">
+                <div class="card2">
+                    <img src="recipes1.jpg" alt="matcha latte">
+                </div>
+                <div class="story-card">
+                    <h2>👩‍🍳 Instructions</h2>
+                    <h4><p> 1. Sift the matcha powder into a bowl <br>
+                        2. Add hot water and whisk until smooth <br>
+                        3. Prepare the milk, either hot or cold <br>
+                        4. Add the milk to the matcha mixture and mix well <br>
+                        5. Add sweetener to taste <br>
+                        6. Add whipped cream and sprinkle a little matcha powder
+                    </p></h4>
+                    <a href="recipes.html"><div class="arrow-icon">→</div></a>
+                </div>
+                </section>
+        </main>
+    </div>
+    
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col about-col">
+                <h4>Starbucks® Matcha</h4>
+                <p>Bringing you the finest organic matcha from the heart of Japan. Healthy, fresh, and delicious.</p>
+            </div>
+            
+            <div class="footer-col links-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                     <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="categories1.html">Our Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col social-col">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                   <a href="categories1.html">Cake</a><br>
+                    <a href="categories2.html">Panna</a><br>
+                    <a href="categories3.html">Baked Dessert</a><br>
+                    <a href="categories4.html">Matcha Drink</a><br>
+                    <a href="categories5.html">Ice Cream</a>
+                </div>
+            </div>
+
+            <div class="footer-col newsletter-col">
+                <h4>Newsletter</h4>
+                <p>Stay updated with our new arrivals.</p>
+                <form class="subscribe-form" action="#confirm-noti">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" class="submit-btn">Go</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Starbucks® Matcha Collection. All rights reserved.</p>
+                <p class="designer-credit">Designed by <strong>Ei Ei Soe</strong></p>
+            </div>
+        </div>
+    </footer>
+<div id="confirm-noti" class="modal-overlay1">
+    <div class="modal-content1">
+        <h3>Completed successfully!</h3>
+        <p>Thank you! Your request has been received</p>
+        <a href="#" class="close-btn1">OK</a>
+    </div>
+</div>
+</body>
+</html>
